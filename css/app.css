@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font: lighter 18px "Segoe UI";
+}
+
+#player {
+    top: 10%;
+    left: 50px;
+    height: 100px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    transition: all .3s;
+}
+
+.controllers {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 0 100px;
+}
+
+.arrow {
+    height: 50px;
+    width: 100px;
+    background: #EEE;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 15px;
+    border: 0;
+    float: left;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    background: #AAA !important;
+}
